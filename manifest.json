@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "TAKE A WALK",
+  "description": "Tracks User Activity and Remainds User to take a break if the Screen-on time crosses 1 Hour",
+  "version": "1.0",
+
+  "browser_action": 
+  {
+    
+    "default_icon": "images.png",
+    "default_popup": "popup.html"
+
+    
+
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "web_server_url",
+    "alarms"
+  ]
+}
