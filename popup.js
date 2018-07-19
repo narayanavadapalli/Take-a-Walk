@@ -1,3 +1,4 @@
+//hihihi
 var alarmClock = {
 
         onHandler : function(e) {
